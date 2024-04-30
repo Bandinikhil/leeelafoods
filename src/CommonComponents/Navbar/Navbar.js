@@ -39,7 +39,7 @@ const Navbar = ({ reloadnavbar }) => {
   return (
     <nav>
       <div className="s1">
-        <img className="w-48 h-56 logo" src={logo} alt="logo"/>
+        <img className="w-48 h-[3rem] logo" src={logo} alt="logo"/>
 
         <div className="searchbar rounded-lg">
           <input
