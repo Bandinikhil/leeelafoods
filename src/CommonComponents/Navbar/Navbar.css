@@ -165,7 +165,7 @@ nav .s3 {
         margin: 0px;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: end;
+        justify-content: flex-end;
     }
     nav .s3 ul li{
         list-style: none;
