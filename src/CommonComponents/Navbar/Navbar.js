@@ -39,7 +39,7 @@ const Navbar = ({ reloadnavbar }) => {
   return (
     <nav>
       <div className="s1">
-        <img className="w-48 h-56" src={logo} alt="logo" className="logo" />
+        <img className="w-48 h-56 logo" src={logo} alt="logo"/>
 
         <div className="searchbar rounded-lg">
           <input
@@ -97,7 +97,7 @@ const Navbar = ({ reloadnavbar }) => {
                             <Dropdown.Item href="/login">Login</Dropdown.Item>
                             <Dropdown.Item href="/signup">Signup</Dropdown.Item>
                             <Dropdown.Item href="/user/accountsettings">Profile</Dropdown.Item>
-                            <Dropdown.Item href="#">Logout</Dropdown.Item>
+                            <Dropdown.Item href="/">Logout</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown> */}
           <Menu as="div" className="relative inline-block text-left">
@@ -138,7 +138,7 @@ const Navbar = ({ reloadnavbar }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href="/"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -153,7 +153,7 @@ const Navbar = ({ reloadnavbar }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href="/"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -168,7 +168,7 @@ const Navbar = ({ reloadnavbar }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href="/"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -184,7 +184,7 @@ const Navbar = ({ reloadnavbar }) => {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href="/"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -209,7 +209,7 @@ const Navbar = ({ reloadnavbar }) => {
 
         <Menu as="div" className="relative inline-block text-left">
           <div>
-            <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold hover:text-[#7ED957] text-gray-900 shadow-sm ring-1 ring-inset ring-white ">
+            <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold hover:text-[/7ED957] text-gray-900 shadow-sm ring-1 ring-inset ring-white ">
               Categories
               <ChevronDownIcon
                 className="-mr-1 h-5 w-5 text-gray-400"
@@ -232,7 +232,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -245,7 +245,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -258,7 +258,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -271,7 +271,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -284,7 +284,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -297,7 +297,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active
                           ? "bg-gray-100 text-gray-900 font-light "
@@ -312,7 +312,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -325,7 +325,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -338,7 +338,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -351,7 +351,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -364,7 +364,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -377,7 +377,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -387,7 +387,7 @@ const Navbar = ({ reloadnavbar }) => {
                     </a>
                   )}
                 </Menu.Item>
-                {/* <form method="POST" action="#">
+                {/* <form method="POST" action="/">
               <Menu.Item>
                 {({ active }) => (
                   <button
@@ -415,7 +415,7 @@ const Navbar = ({ reloadnavbar }) => {
         
         <Menu as="div" className="relative inline-block text-left">
           <div>
-            <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold hover:text-[#7ED957] text-gray-900 shadow-sm ring-1 ring-inset ring-white ">
+            <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold hover:text-[/7ED957] text-gray-900 shadow-sm ring-1 ring-inset ring-white ">
               More
               <ChevronDownIcon
                 className="-mr-1 h-5 w-5 text-gray-400"
@@ -439,7 +439,7 @@ const Navbar = ({ reloadnavbar }) => {
                 <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -453,7 +453,7 @@ const Navbar = ({ reloadnavbar }) => {
                 {/* <Menu.Item>
                   {({ active }) => (
                     <a
-                      href="#"
+                      href="/"
                       className={classNames(
                         active ? "bg-gray-100 text-gray-900" : "text-gray-700",
                         "block px-4 py-2 text-sm"
@@ -532,14 +532,14 @@ const Navbar = ({ reloadnavbar }) => {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item href="#/action-1">Fresh Vegetables</Dropdown.Item>
-                                    <Dropdown.Item href="#/action-2">Fresh Fruits</Dropdown.Item>
-                                    <Dropdown.Item href="#/action-3">House Cleaning</Dropdown.Item>
+                                    <Dropdown.Item href="//action-1">Fresh Vegetables</Dropdown.Item>
+                                    <Dropdown.Item href="//action-2">Fresh Fruits</Dropdown.Item>
+                                    <Dropdown.Item href="//action-3">House Cleaning</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown> */}
               <Menu as="div" className="relative inline-block text-left">
                 <div>
-                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#7ED957] px-3 py-2 text-sm font-semibold  text-white shadow-sm  ">
+                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[/7ED957] px-3 py-2 text-sm font-semibold  text-white shadow-sm  ">
                     Categories
                     <ChevronDownIcon
                       className="-mr-1 h-5 w-5 text-white"
@@ -562,7 +562,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -577,7 +577,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -592,7 +592,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -607,7 +607,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -622,7 +622,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -637,7 +637,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -652,7 +652,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -667,7 +667,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -682,7 +682,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900 text-sm"
@@ -697,7 +697,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -712,7 +712,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -727,7 +727,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -769,7 +769,7 @@ const Navbar = ({ reloadnavbar }) => {
              
               <Menu as="div" className="relative inline-block text-left">
                 <div>
-                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#7ED957] px-3 py-2 text-sm font-semibold  text-white shadow-sm  ">
+                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[/7ED957] px-3 py-2 text-sm font-semibold  text-white shadow-sm  ">
                     More
                     <ChevronDownIcon
                       className="-mr-1 h-5 w-5 text-white"
@@ -793,7 +793,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -809,7 +809,7 @@ const Navbar = ({ reloadnavbar }) => {
                       {/* <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -865,12 +865,12 @@ const Navbar = ({ reloadnavbar }) => {
                                         <Dropdown.Item href="/login">Login</Dropdown.Item>
                                         <Dropdown.Item href="/signup">Signup</Dropdown.Item>
                                         <Dropdown.Item href="/user/accountsettings">Profile</Dropdown.Item>
-                                        <Dropdown.Item href="#">Logout</Dropdown.Item>
+                                        <Dropdown.Item href="/">Logout</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown> */}
               <Menu as="div" className="relative inline-block text-left">
                 <div>
-                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#7ED957] px-3 py-2 text-sm font-semibold  text-white shadow-sm  ">
+                  <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[/7ED957] px-3 py-2 text-sm font-semibold  text-white shadow-sm  ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -906,7 +906,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -921,7 +921,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -936,7 +936,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
@@ -952,7 +952,7 @@ const Navbar = ({ reloadnavbar }) => {
                       <Menu.Item>
                         {({ active }) => (
                           <a
-                            href="#"
+                            href="/"
                             className={classNames(
                               active
                                 ? "bg-gray-100 text-gray-900"
